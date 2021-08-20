@@ -1,0 +1,16 @@
+body{
+    background-color: #EFE3D0;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+text-align: center;
+}
+div{
+    text-align: center;
+    margin-top: 4rem;
+}
+hr{
+    border-style:  dotted;
+    border-width: 5px;
+    border-bottom: none;
+}
