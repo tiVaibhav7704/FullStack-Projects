@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+}
+.background{
+    background-color:grey;
+    margin:auto;
+    width:99%;
+    height:60px;
+    position:absolute;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
+
+.menu{
+    position:relative;
+    top:5px;
+    background-color: black;
+    margin:auto;
+    width:95%;
+    height:50px;
+}
+h2{
+    text-align: center;
+    margin-top: 5rem;
+    color: ;
+}
+.option{
+    margin-left:10px;
+    word-spacing: 5px;
+    padding:20px;
+    color:white;
+    font-weight: bolder;
+    display:inline-block;
+}
+.bc{
+    background-color: white;
+  border-radius: 3%;
+   padding: 1rem;
+    width: 40%;
+  margin: 0 auto;
+}
+img{
+    
+ 
+    width:32% ;
+    border-radius: 5%;
+}
