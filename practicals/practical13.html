@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical13</title>
+    <link rel="stylesheet" href="css2/styles13.css">
+</head>
+<body>
+    <div id="container" class="container">
+     <div class="text" id="text"> <h1>Counter</h1></div>
+        <div class="counter">
+            <div class="minus" id="minus">-</div>
+            <div class="count" id="count">0</div>
+            <div class="plus" id="plus">+</div>
+        </div>
+        
+
+    </div>
+    <script>
+        var c=0;
+        var count=document.getElementById("count");
+        var minus=document.getElementById("minus");
+        minus.addEventListener("click",function(){
+            if(c<=1){
+                minus.style.backgroundColor="gray";
+            }else{
+                minus.style.backgroundColor="yellowgreen";
+            } 
+           
+            if(c>0){
+                 c--;
+                
+             }   
+             count.innerHTML=c;
+
+        });
+        var plus=document.getElementById("plus");
+        plus.addEventListener("click",function(){
+            if(c==0||c>0){
+                minus.style.backgroundColor="yellowgreen";
+            }
+            c++;
+            
+            count.innerHTML=c;
+        });
+    </script>
+    
+</body>
+</html>

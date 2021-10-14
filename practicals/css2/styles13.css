@@ -1,0 +1,52 @@
+body{
+    background-color: slategray;
+}
+.container{
+    display: inline;
+    justify-content: center;
+    margin: auto;
+}
+.text{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.counter{
+   
+    justify-content: center;
+    display:flex;
+    
+    
+}
+h1{
+    color: snow;
+    font-size: xxx-large;
+}
+.minus{
+    background-color: yellowgreen;
+    font-size: xx-large;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+.plus{
+    background-color:yellowgreen;
+    font-size: xx-large;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+.count{
+        font-size: xx-large;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+}
